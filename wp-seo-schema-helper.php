@@ -6,6 +6,10 @@
  * Author: Edu Nezzan
  * Author URI: https://nezzan.edu.eu.org
  * License: GPL-2.0+
+ * Outputs a basic WebPage schema using JSON-LD.
+ * This implementation is intentionally minimal for learning purposes.
+ */
+
  */
 
 if (!defined('ABSPATH')) {
@@ -26,3 +30,4 @@ add_action('wp_head', function () {
         <?php
     }
 });
+
